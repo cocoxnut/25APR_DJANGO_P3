@@ -20,5 +20,5 @@ pyvenv.cfg
 .venv
 pip-selfcheck.json
 venv
-
+static
 
