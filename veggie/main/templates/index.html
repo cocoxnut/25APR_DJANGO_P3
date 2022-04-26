@@ -48,7 +48,7 @@
                             <?xml version="1.0" encoding="utf-8"?>
                             <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1930 255.5" style="enable-background:new 0 0 1930 255.5;" xml:space="preserve">
-                                <style type="{% static 'text/css'%}">
+                                <style type="text/css">
                                     .st0{fill:none;stroke:#3c3c3c;stroke-width:10;stroke-linecap:square;stroke-miterlimit:10;}
                                 </style>
                                 <polyline class="st0" points="1224,171.8 1181.3,171.8 1139.2,129.6 1065,203.9 970.5,110.4 876,203.6 801.8,129.4 759.7,171.5 
@@ -75,7 +75,7 @@
                             <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1930 255.5" style="enable-background:new 0 0 1930 255.5;" xml:space="preserve">
                                 <style type="text/css">
-                                    .st0{fill:none;stroke:#3c3c3c;stroke-width:10;stroke-linecap:square;stroke-miterlimit:10;}
+                                   .st0{fill:none;stroke:#3c3c3c;stroke-width:10;stroke-linecap:square;stroke-miterlimit:10;}
                                 </style>
                                 <polyline class="st0" points="1224,171.8 1181.3,171.8 1139.2,129.6 1065,203.9 970.5,110.4 876,203.6 801.8,129.4 759.7,171.5 
                                     717,171.5 "/>
@@ -127,7 +127,7 @@
                 <?xml version="1.0" encoding="utf-8"?>
                 <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1930 255.5" style="enable-background:new 0 0 1930 255.5;" xml:space="preserve">
-                                <style type="{% static 'text/css' %}">
+                                <style type="text/css">
                                     .st0{fill:none;stroke:#3c3c3c;stroke-width:10;stroke-linecap:square;stroke-miterlimit:10;}
                                 </style>
                                 <polyline class="st0" points="1224,171.8 1181.3,171.8 1139.2,129.6 1065,203.9 970.5,110.4 876,203.6 801.8,129.4 759.7,171.5 
@@ -141,77 +141,26 @@
             </div>
             <!--.divider-->
             <div class="specials-content">
-                <div class="special">
-                    <div class="special-img img-01">
-                        <img src="assets/img/special-1.png" />
-                    </div>
+                <!--.special-->
+                {% for i in product %}
+                 <div class="special">
                     <div class="special-items spec-01">
-                        <h2 class="scroll-reveal" data-origin="top" data-distance="20%">Greens fava</h2>
+                        <h2 class="scroll-reveal" data-origin="top" data-distance="20%">{{ i.title }}</h2>
                         <span class="line scroll-reveal" data-origin="top" data-distance="20%"></span>
-                        <p class="scroll-reveal" data-origin="bottom" data-distance="30%">Nori grape silver beet broccoli kombu beet greens fava</p>
-                        <span class="scroll-reveal" data-origin="bottom" data-distance="60%">19$</span>
-                    </div>
-                </div>
-                <!--.special-->
-                <div class="special">
-                    <div class="special-img img-02">
-                        <img src="assets/img/special-2.png" />
-                    </div>
-                    <div class="special-items spec-02">
-                        <h2 class="scroll-reveal" data-origin="top" data-distance="20%">Celery quand</h2>
-                        <span class="line scroll-reveal" data-origin="top" data-distance="20%"></span>
-                        <p class="scroll-reveal" data-origin="bottom" data-distance="30%">Celery quandong swiss chard chicory earthnut pea</p>
-                        <span class="scroll-reveal" data-origin="bottom" data-distance="60%">18$</span>
-                    </div>
-                </div>
-                <!--.special-->
-                <div class="special">
-                    <div class="special-img img-03">
-                        <img src="assets/img/special-3.png" />
-                    </div>
-                    <div class="special-items spec-03">
-                        <h2 class="scroll-reveal" data-origin="top" data-distance="20%">Pea horser</h2>
-                        <span class="line scroll-reveal" data-origin="top" data-distance="20%"></span>
-                        <p class="scroll-reveal" data-origin="bottom" data-distance="30%">Kohlrabi radish okra azuki bean corn fava bean mustard</p>
-                        <span class="scroll-reveal" data-origin="bottom" data-distance="60%">7$</span>
-                    </div>
-                </div>
-                <!--.special-->
-                <div class="special">
-                    <div class="special-items spec-04">
-                        <h2 class="scroll-reveal" data-origin="top" data-distance="20%">Soko radicchio</h2>
-                        <span class="line scroll-reveal" data-origin="top" data-distance="20%"></span>
-                        <p class="scroll-reveal" data-origin="bottom" data-distance="30%">Dandelion zucchini burdock yarrow chickpea dandelion</p>
-                        <span class="scroll-reveal" data-origin="bottom" data-distance="60%">25$</span>
-                    </div>
-                    <div class="special-img img-04">
-                        <img src="assets/img/special-4.png" />
-                    </div>
-                </div>
-                <!--.special-->
-                <div class="special">
-                    <div class="special-items spec-05">
-                        <h2 class="scroll-reveal" data-origin="top" data-distance="20%">Tigernut</h2>
-                        <span class="line scroll-reveal" data-origin="top" data-distance="20%"></span>
-                        <p class="scroll-reveal" data-origin="bottom" data-distance="30%">Grape silver beet watercress potato tigernut</p>
-                        <span class="scroll-reveal" data-origin="bottom" data-distance="60%">14$</span>
-                    </div>
-                    <div class="special-img img-05">
-                        <img src="assets/img/special-5.png" />
-                    </div>
-                </div>
-                <!--.special-->
-                <div class="special">
-                    <div class="special-items spec-06">
-                        <h2 class="scroll-reveal" data-origin="top" data-distance="20%">Yarrow sweet</h2>
-                        <span class="line scroll-reveal" data-origin="top" data-distance="20%"></span>
-                        <p class="scroll-reveal" data-origin="bottom" data-distance="30%">Gumbo kakadu plum komatsuna black-eyed pea green</p>
-                        <span class="scroll-reveal" data-origin="bottom" data-distance="60%">8$</span>
+                        <p class="scroll-reveal" data-origin="bottom" data-distance="30%">{{ i.description }}</p>
+                        <span class="scroll-reveal" data-origin="bottom" data-distance="60%">{{ i.price }}$</span>
                     </div>
                     <div class="special-img img-06">
-                        <img src="assets/img/special-6.png" />
+                        {% if i.image %}
+                        <img src="{{ i.image.url }}" />
+                        {% else %}
+<!--                        <img src="{% static 'assets/img/special-6.png' %}" />-->
+                        {% endif %}
                     </div>
-                </div>
+                                     </div>
+
+                {% endfor %}
+                                </div>
                 <!--.special-->
             </div>
             <!--.specials-content-->
@@ -242,7 +191,7 @@
                 </div>
                 <!--.divider-->
                 <p class="scroll-reveal" data-origin="top" data-distance="10%">Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.</p>
-                <img class="signature scroll-reveal" data-origin="right" data-distance="20%" src="assets/signature.png" />
+                <img class="signature scroll-reveal" data-origin="right" data-distance="20%" src="{% static 'assets/signature.png' %}" />
             </div>
         </div>
         <!--.container-->
@@ -281,95 +230,15 @@
                     <div class="menu-content">
                         <div class="menu-section">
                             <table>
+                                {% for item in starters %}
                                 <tr>
-                                    <td><span>SMOKED RICOTTA TERRINE</span></td>
-                                    <td><span>$12</span></td>
+                                    <td><span>{{ item.title }}</span></td>
+                                    <td><span>${{ item.price}}</span></td>
                                 </tr>
                                 <tr>
-                                    <td>ricotta, shallots, cheddar, capers</td>
+                                    <td>{{ item.description }}</td>
                                 </tr>
-                                <tr>
-                                    <td><span>SAMPHIRE FRITTERS WITH FENNEL CEVICHE </span></td>
-                                    <td><span>$19</span></td>
-                                </tr>
-                                <tr>
-                                    <td>fresh samphire, plain flour, cornflower, eggs, fennel</td>
-                                </tr>
-                                <tr>
-                                    <td><span>PAN FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$13</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
-                                <tr>
-                                    <td><span>SMOKED RICOTTA TERRINE</span></td>
-                                    <td><span>$12</span></td>
-                                </tr>
-                                <tr>
-                                    <td>ricotta, shallots, cheddar, capers</td>
-                                </tr>
-                                <tr>
-                                    <td><span>PAN FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$11</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
-                                <tr>
-                                    <td><span>FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$16</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
-                            </table>
-                        </div>
-                        <!--.menu-section-->
-                        <div class="menu-section">
-                            <table>
-                                <tr>
-                                    <td><span>SMOKED RICOTTA TERRINE</span></td>
-                                    <td><span>$12</span></td>
-                                </tr>
-                                <tr>
-                                    <td>ricotta, shallots, cheddar, capers</td>
-                                </tr>
-                                <tr>
-                                    <td><span>SAMPHIRE FRITTERS WITH FENNEL CEVICHE </span></td>
-                                    <td><span>$19</span></td>
-                                </tr>
-                                <tr>
-                                    <td>fresh samphire, plain flour, cornflower, eggs, fennel</td>
-                                </tr>
-                                <tr>
-                                    <td><span>PAN FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$13</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
-                                <tr>
-                                    <td><span>SMOKED RICOTTA TERRINE</span></td>
-                                    <td><span>$12</span></td>
-                                </tr>
-                                <tr>
-                                    <td>ricotta, shallots, cheddar, capers</td>
-                                </tr>
-                                <tr>
-                                    <td><span>PAN FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$11</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
-                                <tr>
-                                    <td><span>PAN FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$16</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
+                                {% endfor %}
                             </table>
                         </div>
                         <!--.menu-section-->
@@ -377,86 +246,19 @@
                     <!--.menu-content-->
                 </div>
                 <!--#panel1-->
-
                 <div class="tabs-panel" id="panel2">
                     <div class="menu-content">
                         <div class="menu-section">
                             <table>
+                                {% for m in main_dishes %}
                                 <tr>
-                                    <td><span>SAMPHIRE FRITTERS WITH FENNEL CEVICHE </span></td>
-                                    <td><span>$19</span></td>
+                                    <td><span> {{ m.title }} </span></td>
+                                    <td><span>${{ m.price }}</span></td>
                                 </tr>
                                 <tr>
-                                    <td>fresh samphire, plain flour, cornflower, eggs, fennel</td>
+                                    <td>{{ m.description }}</td>
                                 </tr>
-                                <tr>
-                                    <td><span>PAN FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$13</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
-                                <tr>
-                                    <td><span>SMOKED RICOTTA TERRINE</span></td>
-                                    <td><span>$12</span></td>
-                                </tr>
-                                <tr>
-                                    <td>ricotta, shallots, cheddar, capers</td>
-                                </tr>
-                                <tr>
-                                    <td><span>PAN FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$11</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
-                                <tr>
-                                    <td><span>PAN FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$16</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
-                            </table>
-                        </div>
-                        <!--.menu-section-->
-                        <div class="menu-section">
-                            <table>
-                                <tr>
-                                    <td><span>SAMPHIRE FRITTERS WITH FENNEL CEVICHE </span></td>
-                                    <td><span>$19</span></td>
-                                </tr>
-                                <tr>
-                                    <td>fresh samphire, plain flour, cornflower, eggs, fennel</td>
-                                </tr>
-                                <tr>
-                                    <td><span>PAN FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$13</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
-                                <tr>
-                                    <td><span>SMOKED RICOTTA TERRINE</span></td>
-                                    <td><span>$12</span></td>
-                                </tr>
-                                <tr>
-                                    <td>ricotta, shallots, cheddar, capers</td>
-                                </tr>
-                                <tr>
-                                    <td><span>PAN FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$11</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
-                                <tr>
-                                    <td><span>PAN FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$16</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
+                                {% endfor %}
                             </table>
                         </div>
                         <!--.menu-section-->
@@ -469,53 +271,14 @@
                     <div class="menu-content">
                         <div class="menu-section">
                             <table>
-
+                                {% for d in desserts %}
                                 <tr>
-                                    <td><span>SMOKED RICOTTA TERRINE</span></td>
-                                    <td><span>$12</span></td>
+                                    <td><span>{{ d.title }}</span></td>
+                                    <td><span>${{ d.price }}</span></td>
                                 </tr>
                                 <tr>
-                                    <td>ricotta, shallots, cheddar, capers</td>
-                                </tr>
-                                <tr>
-                                    <td><span>PAN FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$11</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
-                                <tr>
-                                    <td><span>COURGETTE FLOWERS</span></td>
-                                    <td><span>$16</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
-                            </table>
-                        </div>
-                        <!--.menu-section-->
-                        <div class="menu-section">
-                            <table>
-                                <tr>
-                                    <td><span>SMOKED RICOTTA TERRINE</span></td>
-                                    <td><span>$12</span></td>
-                                </tr>
-                                <tr>
-                                    <td>ricotta, shallots, cheddar, capers</td>
-                                </tr>
-                                <tr>
-                                    <td><span>PAN FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$11</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
-                                <tr>
-                                    <td><span>FRIED COURGETTE FLOWERS</span></td>
-                                    <td><span>$16</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
+                                    <td>{{ d.description }}</td>
+                                    {% endfor %}
                                 </tr>
                             </table>
                         </div>
@@ -529,39 +292,15 @@
                     <div class="menu-content">
                         <div class="menu-section">
                             <table>
+                                {% for dr in drinks %}
                                 <tr>
-                                    <td><span>COURGETTE FLOWERS</span></td>
-                                    <td><span>$11</span></td>
+                                    <td><span>{{ dr.title }}</span></td>
+                                    <td><span>${{ dr.price }}</span></td>
                                 </tr>
                                 <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
+                                    <td>{{ dr.description }}</td>
                                 </tr>
-                                <tr>
-                                    <td><span>SMOKED RICOTTA TERRINE</span></td>
-                                    <td><span>$12</span></td>
-                                </tr>
-                                <tr>
-                                    <td>ricotta, shallots, cheddar, capers</td>
-                                </tr>
-                            </table>
-                        </div>
-                        <!--.menu-section-->
-                        <div class="menu-section">
-                            <table>
-                                <tr>
-                                    <td><span>COURGETTE FLOWERS</span></td>
-                                    <td><span>$11</span></td>
-                                </tr>
-                                <tr>
-                                    <td>courgette flowers, goats cheese, red onion, pine nuts</td>
-                                </tr>
-                                <tr>
-                                    <td><span>SMOKED RICOTTA TERRINE</span></td>
-                                    <td><span>$12</span></td>
-                                </tr>
-                                <tr>
-                                    <td>ricotta, shallots, cheddar, capers</td>
-                                </tr>
+                                {% endfor %}
                             </table>
                         </div>
                         <!--.menu-section-->
@@ -612,10 +351,11 @@
                 <!--.contact-info-->
                 <div class="contact-form scroll-reveal" data-origin="bottom" data-distance="20%">
                     <h3>Contact us</h3>
-                    <form>
+                    <form method="post">
+                        {% csrf_token %}
                         <input type="text" name="name" placeholder="Name">
                         <input type="email" name="email" placeholder="Email">
-                        <textarea placeholder="Message"></textarea>
+                        <textarea name="message" placeholder="Message"></textarea>
                         <button class="send-form">Send</button>
                     </form>
                 </div>
@@ -660,7 +400,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/5.0.2/what-input.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.js"></script>
-    <script src="js/app.js"></script>
+    <script src="{% static 'js/app.js' %}"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
